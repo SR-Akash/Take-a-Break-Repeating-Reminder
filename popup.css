@@ -1,0 +1,62 @@
+
+* { box-sizing: border-box; }
+body {
+  width: 320px;
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #162639;
+  color: #e8f0ff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: linear-gradient(90deg, #1f3450, #203b5e);
+  border-bottom: 1px solid #284a6c;
+}
+.logo { font-size: 24px; }
+.title h1 { margin: 0; font-size: 28px; letter-spacing: 2px; }
+.title p { margin: 0; font-size: 12px; opacity: .8; }
+
+.range, .control, .row { padding: 12px 14px; }
+label { display: block; font-weight: 600; margin-bottom: 6px; }
+select, input[type="text"] {
+  width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #2a4a72;
+  background: #0f1e30; color: #e8f0ff; outline: none;
+}
+.row {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+}
+.checkbox { display: flex; align-items: center; gap: 8px; }
+.sound { display: flex; align-items: center; gap: 8px; }
+#testSound { padding: 8px 10px; border-radius: 8px; border: 1px solid #2a4a72; background: #0f1e30; color: #e8f0ff; cursor: pointer; }
+
+.buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 12px 14px; }
+button { padding: 12px; border-radius: 10px; border: none; cursor: pointer; font-weight: 700; }
+.primary { background: #2a7fff; color: white; }
+.danger { background: #ff4d4f; color: white; }
+
+.footer {
+  padding: 8px 14px 14px;
+  font-size: 12px;
+  opacity: 0.9;
+  color: white;              /* Make footer text white */
+  text-align: center;         /* Optional: center the text */
+}
+
+.footer a {
+  color: white;               /* Make links white */
+  text-decoration: none;      /* Optional: remove underline */
+  margin: 0 4px;              /* Optional: spacing between links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+.footer .small {
+  opacity: 0.7;
+  display: block;             /* Optional: make version appear below links */
+  margin-top: 4px;
+}

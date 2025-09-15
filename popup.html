@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Take a Break</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">🧠</div>
+      <div class="title">
+        <h1>Hey</h1>
+        <p>take a break</p>
+      </div>
+    </header>
+
+    <div class="range">
+      <label for="minutes">Time in Minutes:</label>
+      <select id="minutes">
+        <option>1</option>
+        <option>2</option>
+        <option>5</option>
+        <option>10</option>
+        <option>15</option>
+        <option selected>30</option>
+        <option>45</option>
+        <option>60</option>
+        <option>90</option>
+        <option>120</option>
+      </select>
+    </div>
+
+    <div class="control">
+      <label for="popupText">Popup Text:</label>
+      <input id="popupText" type="text" placeholder="Get some water!">
+    </div>
+
+    <div class="row">
+      <label class="checkbox">
+        <input id="repeat" type="checkbox" checked />
+        <span>Repeat Timer</span>
+      </label>
+
+      <div class="sound">
+        <label for="sound">Sound</label>
+        <select id="sound">
+          <option value="sound1">Sound 1</option>
+          <option value="sound2">Sound 2</option>
+          <option value="sound3" selected>Sound 3</option>
+        </select>
+        <button id="testSound" title="Test sound">▶</button>
+      </div>
+    </div>
+
+    <!-- Countdown + Progress bar -->
+    <div id="countdown" class="mt-2" 
+     style="font-size: 16px; font-weight: bold; text-align: center;">
+  Remaining: 0:00
+</div>
+
+    <div class="progress mt-2" style="height: 8px; background: #333; border-radius: 5px;">
+      <div id="progress-bar" style="height: 100%; width: 0%; background: #4CAF50; border-radius: 5px;"></div>
+    </div>
+
+    <div class="buttons">
+      <button id="start" class="primary">Start</button>
+      <button id="stop" class="danger">Stop</button>
+    </div>
+
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/imakashh/" target="_blank">LinkedIn</a> ·
+      <a href="https://sr-akash.github.io/imakash/" target="_blank">Saidur Rahman Akash</a>
+      <p class="small">Version 1.0.0</p>
+    </footer>
+
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
