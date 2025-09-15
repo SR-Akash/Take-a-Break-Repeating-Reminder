@@ -36,12 +36,6 @@ extension/
 │── README.md              # Project documentation (this file)
 
 
- <img width="312" height="469" alt="image" src="https://github.com/user-attachments/assets/b6414d33-06eb-4e19-91a1-4f35d97bedb9" />
-
-
-*Popup UI: Shows timer, progress bar, and controls.
-*Running Timer: Displays countdown and progress.
-
 **📖 How It Works**
 
 1.Open the extension from the toolbar.
@@ -68,4 +62,11 @@ extension/
 -JavaScript (popup logic, background scripts)
 -HTML/CSS (popup UI)
 -Chrome Storage API (sync & local storage)
+
+
+ <img width="312" height="469" alt="image" src="https://github.com/user-attachments/assets/b6414d33-06eb-4e19-91a1-4f35d97bedb9" />
+
+
+*Popup UI: Shows timer, progress bar, and controls.
+*Running Timer: Displays countdown and progress.
 
