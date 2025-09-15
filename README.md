@@ -1,4 +1,4 @@
-                                🧠 **Smart Break Timer – Chrome Extension**
+                                **🧠  Smart Break Timer – Chrome Extension **
 📌 **Overview**
 Smart Break Timer is a lightweight Chrome extension that helps you take healthy breaks while working.
 It provides:
@@ -63,10 +63,4 @@ extension/
 -HTML/CSS (popup UI)
 -Chrome Storage API (sync & local storage)
 
-
- <img width="312" height="469" alt="image" src="https://github.com/user-attachments/assets/b6414d33-06eb-4e19-91a1-4f35d97bedb9" />
-
-
-*Popup UI: Shows timer, progress bar, and controls.
-*Running Timer: Displays countdown and progress.
 
