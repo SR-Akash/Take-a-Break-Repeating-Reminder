@@ -1,5 +1,5 @@
-                                **🧠  Smart Break Timer – Chrome Extension **
-📌 **Overview**
+                                🧠 Smart Break Timer – Chrome Extension
+**📌 Overview**
 Smart Break Timer is a lightweight Chrome extension that helps you take healthy breaks while working.
 It provides:
 
@@ -9,7 +9,7 @@ It provides:
 4.Sound alerts 🔔 when the timer finishes
 5.Persistent timer state (works even if you close the popup)
 
-**Stay productive while avoiding burnout! 🚀**
+Stay productive while avoiding burnout! 🚀
 
 
 **⚙️ Features**
@@ -21,7 +21,7 @@ It provides:
 ✅ Timer continues running even if popup is closed
 ✅ Simple and minimal design
 
-**📂 Project Structure**
+📂 Project Structure
 extension/
 │── icons/                 # Contains icons in 16, 32, 48, 128 px
 │   ├── icon16.png
@@ -35,7 +35,8 @@ extension/
 │── manifest.json          # Extension config
 │── README.md              # Project documentation (this file)
 
-
+ 
+ 
 **📖 How It Works**
 
 1.Open the extension from the toolbar.
@@ -58,9 +59,9 @@ extension/
 5.The extension will appear in your toolbar.
 
 **🛠️ Tech Stack**
+
 -Manifest V3
 -JavaScript (popup logic, background scripts)
 -HTML/CSS (popup UI)
 -Chrome Storage API (sync & local storage)
-
 
